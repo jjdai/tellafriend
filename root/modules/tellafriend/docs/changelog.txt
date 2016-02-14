@@ -1,0 +1,68 @@
+---------------------------------------
+v1.10  - 2016-02-11 (J°J°D)
+---------------------------------------
+- ajout des fichiers de langues "french"
+- préférences du module
+  - Paramétrage du message d'introduction et de la signature du courriel
+  - Paramétrage de la largeur des champs de saisie du courriel
+  - choix d’enregistrer ou non les mails non envoyés dans la table des log
+
+- remplacement du protocole passé dans le get par une chaine anonyme
+  certains hébergeurs bloquent les url qui contiennent "http" dans un paramètre du GET
+  modification de la fonction "modifier.xoops_tellafriend" du pluging Smarty pour rétablir le protocole modifié.
+  voir "Problème avec certains hébergeurs." dans le fichier readme.txt pour utiliser cette fonctionnalité
+
+- Ajout des fichiers "index.html" manquants"
+- Suppression du fichier "mymenu.php" devenu inutile
+- ajout des fonctions
+  function xoops_module_install_tellafriend(&$module) {   }
+  function xoops_module_uninstall_tellafriend(&$module) {   }
+  function xoops_module_update_tellafriend(&$module) {   
+
+- ajout du champ "result" pour enregistrer le résultat de l'envoi et affichage dans l'admin
+- ajout du champ "date_send" de type "Datetime" en lieu et place du champ "timestamp" qui ne fonctionne pas dans tous les environnements
+- harmonisation des préfixes de définition des fichiers de langues.
+
+ 
+---------------------------------------
+1.06 Final  2013-05-02
+---------------------------------------
+- Converted to XOOPS 2.5.5 Admin GUI (Mamba)
+
+---------------------------------------
+1.05 2008-12-08
+---------------------------------------
+- updated README
+- updated mymenu
+- added language files
+-- portuguesebr (thx leco1)
+
+---------------------------------------
+1.04 2008-12-05
+---------------------------------------
+- modified the compatibilities with XCL2.1
+- modified MySQL5 compatibility
+- changed altsys friendly module
+
+---------------------------------------
+1.03 2006-07-13
+---------------------------------------
+- modified xoops_version.php as hasMain=1 (thx Rollei)
+- added language files
+-- persian (thx voltan) 1.03a
+
+---------------------------------------
+1.02 2005-12-03
+---------------------------------------
+- updated myblocksadmin 0.41 & mymenu 0.15a
+- updated module icon (thx argon)
+
+---------------------------------------
+1.01   2005-07-21
+---------------------------------------
+- fixed a bug in JavaScript (thx yamaichi)
+
+---------------------------------------
+1.00   2005-05-25
+---------------------------------------
+- the 1st release

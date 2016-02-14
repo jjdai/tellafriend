@@ -1,0 +1,155 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=F:\_mini_server_n6\udrive\www\laboele\modules\tellafriend
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+_tellafriend
+	+tellafriend
+		-smarty
+			..\..\class\smarty\plugins\modifier.xoops_tellafriend.php
+		+admin
+			admin\about.php
+			admin\admin_footer.php
+			admin\admin_header.php
+			admin\main.php
+			admin\menu.php
+			admin\index.php
+		+docs
+			docs\changelog.txt
+			docs\credits.txt
+			docs\index.html
+			docs\install.txt
+			docs\lang_diff.txt
+			docs\license.txt
+			docs\readme.txt
+			admin\index.php
+		-images
+			images\dotdotdot.gif
+			images\tellafriend_slogo.png
+		+include
+			include\.htaccess
+			include\functions.php
+			include\gtickets.php
+			include\install.php
+			include\constantes.php
+		+language
+			+english
+				-help
+					language\english\help\help.html
+					language\english\help\index.html
+				language\english\admin.php
+				language\english\modinfo.php
+			+french
+				language\french\admin.php
+				language\french\modinfo.php
+			-ja_utf8
+				language\ja_utf8\admin.php
+				language\ja_utf8\modinfo.php
+			-japanese
+				language\japanese\admin.php
+				language\japanese\modinfo.php
+			+korean
+				language\korean\admin.php
+				language\korean\modinfo.php
+			-koreanutf
+				language\koreanutf\admin.php
+				language\koreanutf\modinfo.php
+			-persian
+				language\persian\admin.php
+				language\persian\modinfo.php
+			+portuguesebr
+				language\portuguesebr\admin.php
+				language\portuguesebr\modinfo.php
+			+schinese
+				language\schinese\admin.php
+				language\schinese\modinfo.php
+			-schineseutf
+				language\schineseutf\admin.php
+				language\schineseutf\modinfo.php
+			-tchineseutf
+				language\tchineseutf\admin.php
+				language\tchineseutf\modinfo.php
+			language\index.html
+			language\tpl-language-header.php
+		+sql
+			sql\.htaccess
+			sql\index.html
+			sql\mysql.sql
+		+templates
+			templates\.htaccess
+			templates\index.html
+			templates\tellafriend_form.html
+		_tellafriend.ppr
+		index.php
+		xoops_version.php
+[Open project files]
+0=language\french\admin.php
+1=language\french\modinfo.php
+2=language\japanese\modinfo.php
+3=language\japanese\admin.php
+4=language\schinese\admin.php
+5=xoops_version.php
+6=docs\readme.txt
+7=docs\changelog.txt
+8=index.php
+9=..\..\class\smarty\plugins\modifier.xoops_tellafriend.php
+10=include\constantes.php
+11=admin\menu.php
+12=admin\index.php
+13=language\english\modinfo.php
+[Selected Project Files]
+Main=
+Selected=xoops_version.php
+[language\french\admin.php]
+TopLine=21
+Caret=41,37
+[language\french\modinfo.php]
+TopLine=37
+Caret=1,56
+[language\japanese\modinfo.php]
+TopLine=11
+Caret=16,17
+[language\japanese\admin.php]
+TopLine=14
+Caret=12,28
+[language\schinese\admin.php]
+TopLine=7
+Caret=46,21
+[xoops_version.php]
+TopLine=27
+Caret=1,50
+[docs\readme.txt]
+TopLine=46
+Caret=41,58
+[docs\changelog.txt]
+TopLine=1
+Caret=50,12
+[index.php]
+TopLine=148
+Caret=1,163
+[..\..\class\smarty\plugins\modifier.xoops_tellafriend.php]
+TopLine=9
+Caret=61,28
+[include\constantes.php]
+TopLine=1
+Caret=43,2
+[admin\menu.php]
+TopLine=1
+Caret=1,11
+[admin\index.php]
+TopLine=19
+Caret=133,37
+[language\english\modinfo.php]
+TopLine=40
+Caret=32,54
